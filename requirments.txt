@@ -1,34 +1,18 @@
-# Core app
 streamlit==1.53.1
-python-dotenv==1.2.1
-
-# PDF handling
 PyPDF2==3.0.1
 reportlab==4.4.9
-
-# LangChain ecosystem
+python-dotenv==1.2.1
 langchain==1.2.7
+langchain-classic==1.0.1
 langchain-core==1.2.7
 langchain-community==0.4.1
-langchain-classic==1.0.1
-langchain-text-splitters==1.1.0
 langchain-google-genai==4.2.0
-
-# Google Gemini
-google-generativeai==0.8.6
-google-genai==1.60.0
-
-# Vector store + embeddings
-faiss-cpu==1.13.2
-sentence-transformers==5.2.2
 huggingface-hub==1.3.4
+sentence-transformers==5.2.2
+faiss-cpu==1.13.2
+numpy
+torch
+transformers
+pandas
 
-# ML / numeric deps
-torch==2.10.0
-numpy==2.4.1
-scikit-learn==1.8.0
-scipy==1.17.0
 
-# Utilities
-requests==2.32.5
-tqdm==4.67.1
